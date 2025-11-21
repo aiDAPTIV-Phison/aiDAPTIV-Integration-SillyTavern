@@ -3,7 +3,9 @@ import {
     characters,
     this_chid,
     extension_prompts,
+    main_api,
 } from '../script.js';
+import { oai_settings } from './openai.js';
 import { prepareOpenAIMessages } from './openai.js';
 import { getWorldInfoPrompt } from './world-info.js';
 
@@ -45,16 +47,29 @@ async function onChatLoaded() {
         }, true); // dryRun=true
 
         if (prompt && Array.isArray(prompt) && prompt.length > 0) {
-            console.log('KV Cache Preloader: Sending request to 127.0.0.1:13141/v1...');
+            // Use configured settings
+            const apiUrl = oai_settings.custom_url || 'http://127.0.0.1:13141/v1';
+            const model = oai_settings.custom_model || 'Llama-3.2-3B-Instruct-Q4_K_M';
+
+            // Ensure URL ends with /chat/completions
+            let fetchUrl = apiUrl;
+            if (!fetchUrl.endsWith('/chat/completions')) {
+                if (!fetchUrl.endsWith('/')) {
+                    fetchUrl += '/';
+                }
+                fetchUrl += 'chat/completions';
+            }
+
+            console.log(`KV Cache Preloader: Sending request to ${fetchUrl}...`);
             
             // Construct the request body
             const requestBody = {
                 messages: prompt,
-                max_tokens: 100000,
-                model: 'Meta-Llama-3.1-8B-Instruct-Q4_K_M', // Placeholder
+                max_tokens: 1,
+                model: model,
             };
 
-            const response = await fetch('http://127.0.0.1:13141/v1/chat/completions', {
+            const response = await fetch(fetchUrl, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -79,6 +94,7 @@ async function onChatLoaded() {
 
 // Register the event listener
 export function initKvCachePreloader() {
+    console.log('KV Cache Preloader: Start Init.');
     eventSource.on('chatLoaded', onChatLoaded);
     console.log('KV Cache Preloader: Initialized.');
 }

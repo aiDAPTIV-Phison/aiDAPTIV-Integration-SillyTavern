@@ -10,8 +10,6 @@ import {
     default as libs,
 } from './lib.js';
 
-import { initKvCachePreloader } from './scripts/kv-cache-preloader.js';
-
 import { humanizedDateTime, favsToHotswap, getMessageTimeStamp, dragElement, isMobile, initRossMods } from './scripts/RossAscends-mods.js';
 import { userStatsHandler, statMesProcess, initStats } from './scripts/stats.js';
 import {
@@ -661,6 +659,7 @@ async function firstLoadInit() {
     initDefaultSlashCommands();
     initTextGenModels();
     initOpenAI();
+    const { initKvCachePreloader } = await import('./scripts/kv-cache-preloader.js');
     initKvCachePreloader();
     initTextGenSettings();
     initKoboldSettings();
@@ -672,6 +671,13 @@ async function firstLoadInit() {
     await initPresetManager();
     await initSystemMessages();
     await getSettings();
+
+    // Auto-connect to OpenAI if configured
+    if (main_api === 'openai') {
+        console.log('Auto-connecting to OpenAI...');
+        $('#api_button_openai').trigger('click');
+    }
+
     initKeyboard();
     initDynamicStyles();
     initTags();
@@ -679,6 +685,37 @@ async function firstLoadInit() {
     initMacros();
     await getUserAvatars(true, user_avatar);
     await getCharacters();
+
+    // Auto-load Example character
+    const exampleCharName = '亞瑟·柯南·道爾爵士';
+    let exampleCharIndex = characters.findIndex(c => c.name === exampleCharName);
+
+    if (exampleCharIndex === -1) {
+        console.log('Example character not found, attempting to import from /Example...');
+        try {
+            const response = await fetch(`/Example/${exampleCharName}.json`);
+            if (response.ok) {
+                const blob = await response.blob();
+                const file = new File([blob], `${exampleCharName}.json`, { type: 'application/json' });
+                await importCharacter(file);
+                console.log('Imported example character');
+                
+                // Refresh characters list
+                await getCharacters();
+                exampleCharIndex = characters.findIndex(c => c.name === exampleCharName);
+            } else {
+                console.warn('Example character file not found in /Example');
+            }
+        } catch (err) {
+            console.error('Failed to import example character:', err);
+        }
+    }
+
+    if (exampleCharIndex !== -1) {
+        console.log('Auto-loading Example character:', exampleCharName);
+        await selectCharacterById(exampleCharIndex);
+    }
+
     await getBackgrounds();
     await initTokenizers();
     initBackgrounds();
