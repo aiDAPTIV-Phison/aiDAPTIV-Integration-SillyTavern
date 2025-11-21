@@ -1,0 +1,1142 @@
+{
+    "firstRun": false,
+    "accountStorage": {
+        "__migrated": "1",
+        "Proxy_SkipConfirm_7866160261855770": "true",
+        "LNavOpened": "true",
+        "WINavOpened": "true",
+        "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}}}}",
+        "NavOpened": "true",
+        "SelectedNavTab": "rm_button_selected_ch",
+        "AlertWI_Sakana.png": "true",
+        "WI_PerPage": "50",
+        "Assets_SkipConfirm_2502775700152061": "false"
+    },
+    "currentVersion": "1.13.4",
+    "username": "John",
+    "active_character": "亞瑟·柯南·道爾爵士.png",
+    "active_group": null,
+    "user_avatar": "user-default.png",
+    "amount_gen": 350,
+    "max_context": 8192,
+    "main_api": "openai",
+    "world_info_settings": {
+        "world_info": {
+            "globalSelect": [
+                "Sakana-WI"
+            ]
+        },
+        "world_info_depth": 2,
+        "world_info_min_activations": 0,
+        "world_info_min_activations_depth_max": 0,
+        "world_info_budget": 25,
+        "world_info_include_names": true,
+        "world_info_recursive": true,
+        "world_info_overflow_alert": false,
+        "world_info_case_sensitive": false,
+        "world_info_match_whole_words": true,
+        "world_info_character_strategy": 1,
+        "world_info_budget_cap": 0,
+        "world_info_use_group_scoring": false,
+        "world_info_max_recursion_steps": 0
+    },
+    "textgenerationwebui_settings": {
+        "temp": 0.5,
+        "temperature_last": true,
+        "top_p": 0.9,
+        "top_k": 0,
+        "top_a": 0,
+        "tfs": 1,
+        "epsilon_cutoff": 0,
+        "eta_cutoff": 0,
+        "typical_p": 1,
+        "min_p": 0,
+        "rep_pen": 1.1,
+        "rep_pen_range": 0,
+        "rep_pen_decay": 0,
+        "rep_pen_slope": 1,
+        "no_repeat_ngram_size": 0,
+        "penalty_alpha": 0,
+        "num_beams": 1,
+        "length_penalty": 1,
+        "min_length": 0,
+        "encoder_rep_pen": 1,
+        "freq_pen": 0,
+        "presence_pen": 0,
+        "skew": 0,
+        "do_sample": true,
+        "early_stopping": false,
+        "dynatemp": false,
+        "min_temp": 0,
+        "max_temp": 2,
+        "dynatemp_exponent": 1,
+        "smoothing_factor": 0,
+        "smoothing_curve": 1,
+        "dry_allowed_length": 2,
+        "dry_multiplier": 0,
+        "dry_base": 1.75,
+        "dry_sequence_breakers": "[\"\\n\", \":\", \"\\\"\", \"*\"]",
+        "dry_penalty_last_n": 0,
+        "max_tokens_second": 0,
+        "seed": -1,
+        "preset": "Default",
+        "add_bos_token": true,
+        "stopping_strings": [],
+        "ban_eos_token": false,
+        "skip_special_tokens": true,
+        "include_reasoning": true,
+        "streaming": false,
+        "mirostat_mode": 0,
+        "mirostat_tau": 5,
+        "mirostat_eta": 0.1,
+        "guidance_scale": 1,
+        "negative_prompt": "",
+        "grammar_string": "",
+        "json_schema": {},
+        "banned_tokens": "",
+        "global_banned_tokens": "",
+        "send_banned_tokens": true,
+        "sampler_priority": [
+            "repetition_penalty",
+            "presence_penalty",
+            "frequency_penalty",
+            "dry",
+            "temperature",
+            "dynamic_temperature",
+            "quadratic_sampling",
+            "top_n_sigma",
+            "top_k",
+            "top_p",
+            "typical_p",
+            "epsilon_cutoff",
+            "eta_cutoff",
+            "tfs",
+            "top_a",
+            "min_p",
+            "mirostat",
+            "xtc",
+            "encoder_repetition_penalty",
+            "no_repeat_ngram"
+        ],
+        "samplers": [
+            "penalties",
+            "dry",
+            "top_n_sigma",
+            "top_k",
+            "typ_p",
+            "tfs_z",
+            "typical_p",
+            "xtc",
+            "top_p",
+            "min_p",
+            "temperature"
+        ],
+        "samplers_priorities": [
+            "dry",
+            "penalties",
+            "no_repeat_ngram",
+            "temperature",
+            "top_nsigma",
+            "top_p_top_k",
+            "top_a",
+            "min_p",
+            "tfs",
+            "eta_cutoff",
+            "epsilon_cutoff",
+            "typical_p",
+            "quadratic",
+            "xtc"
+        ],
+        "ignore_eos_token": false,
+        "spaces_between_special_tokens": true,
+        "speculative_ngram": false,
+        "type": "ooba",
+        "mancer_model": "mytholite",
+        "togetherai_model": "Gryphe/MythoMax-L2-13b",
+        "infermaticai_model": "",
+        "ollama_model": "",
+        "openrouter_model": "openrouter/auto",
+        "openrouter_providers": [],
+        "vllm_model": "",
+        "aphrodite_model": "",
+        "dreamgen_model": "opus-v1-xl/text",
+        "tabby_model": "",
+        "sampler_order": [
+            6,
+            0,
+            1,
+            3,
+            4,
+            2,
+            5
+        ],
+        "logit_bias": [],
+        "n": 1,
+        "server_urls": {},
+        "custom_model": "",
+        "bypass_status_check": false,
+        "openrouter_allow_fallbacks": true,
+        "xtc_threshold": 0.1,
+        "xtc_probability": 0,
+        "nsigma": 0,
+        "min_keep": 0,
+        "featherless_model": "",
+        "generic_model": "",
+        "extensions": {},
+        "rep_pen_size": 0
+    },
+    "swipes": true,
+    "horde_settings": {
+        "models": [],
+        "auto_adjust_response_length": true,
+        "auto_adjust_context_length": false,
+        "trusted_workers_only": false
+    },
+    "power_user": {
+        "charListGrid": false,
+        "tokenizer": 99,
+        "token_padding": 64,
+        "collapse_newlines": false,
+        "pin_examples": false,
+        "strip_examples": false,
+        "trim_sentences": false,
+        "always_force_name2": true,
+        "user_prompt_bias": "",
+        "show_user_prompt_bias": true,
+        "auto_continue": {
+            "enabled": false,
+            "allow_chat_completions": false,
+            "target_length": 400
+        },
+        "markdown_escape_strings": "",
+        "chat_truncation": 100,
+        "streaming_fps": 30,
+        "smooth_streaming": false,
+        "smooth_streaming_speed": 50,
+        "fast_ui_mode": true,
+        "avatar_style": 0,
+        "chat_display": 0,
+        "toastr_position": "toast-top-center",
+        "chat_width": 50,
+        "never_resize_avatars": false,
+        "show_card_avatar_urls": false,
+        "play_message_sound": false,
+        "play_sound_unfocused": true,
+        "auto_save_msg_edits": false,
+        "confirm_message_delete": true,
+        "sort_field": "name",
+        "sort_order": "asc",
+        "sort_rule": null,
+        "font_scale": 1,
+        "blur_strength": 10,
+        "shadow_width": 2,
+        "main_text_color": "rgba(220, 220, 210, 1)",
+        "italics_text_color": "rgba(145, 145, 145, 1)",
+        "underline_text_color": "rgba(188, 231, 207, 1)",
+        "quote_text_color": "rgba(225, 138, 36, 1)",
+        "blur_tint_color": "rgba(23, 23, 23, 1)",
+        "chat_tint_color": "rgba(23, 23, 23, 1)",
+        "user_mes_blur_tint_color": "rgba(30, 30, 30, 0.9)",
+        "bot_mes_blur_tint_color": "rgba(30, 30, 30, 0.9)",
+        "shadow_color": "rgba(0, 0, 0, 1)",
+        "border_color": "rgba(0, 0, 0, 0.5)",
+        "custom_css": "",
+        "waifuMode": false,
+        "movingUI": false,
+        "movingUIState": {},
+        "movingUIPreset": "Default",
+        "noShadows": true,
+        "theme": "Dark Lite",
+        "gestures": true,
+        "auto_swipe": false,
+        "auto_swipe_minimum_length": 0,
+        "auto_swipe_blacklist": [],
+        "auto_swipe_blacklist_threshold": 2,
+        "auto_scroll_chat_to_bottom": true,
+        "auto_fix_generated_markdown": false,
+        "send_on_enter": 0,
+        "console_log_prompts": false,
+        "request_token_probabilities": false,
+        "show_group_chat_queue": false,
+        "allow_name1_display": false,
+        "allow_name2_display": false,
+        "hotswap_enabled": true,
+        "timer_enabled": false,
+        "timestamps_enabled": true,
+        "timestamp_model_icon": true,
+        "mesIDDisplay_enabled": false,
+        "hideChatAvatars_enabled": false,
+        "max_context_unlocked": false,
+        "message_token_count_enabled": false,
+        "expand_message_actions": false,
+        "enableZenSliders": false,
+        "enableLabMode": false,
+        "prefer_character_prompt": true,
+        "prefer_character_jailbreak": true,
+        "quick_continue": false,
+        "quick_impersonate": false,
+        "continue_on_send": false,
+        "trim_spaces": true,
+        "relaxed_api_urls": false,
+        "world_import_dialog": true,
+        "enable_auto_select_input": false,
+        "enable_md_hotkeys": false,
+        "tag_import_setting": 1,
+        "disable_group_trimming": false,
+        "single_line": false,
+        "instruct": {
+            "enabled": false,
+            "preset": "Alpaca",
+            "input_sequence": "### Instruction:",
+            "output_sequence": "### Response:",
+            "last_output_sequence": "",
+            "system_sequence": "### Input:",
+            "stop_sequence": "",
+            "wrap": true,
+            "macro": true,
+            "names_behavior": "force",
+            "activation_regex": "",
+            "first_output_sequence": "",
+            "skip_examples": false,
+            "output_suffix": "\n\n",
+            "input_suffix": "\n\n",
+            "system_suffix": "\n\n",
+            "user_alignment_message": "",
+            "system_same_as_user": false,
+            "last_system_sequence": "",
+            "first_input_sequence": "",
+            "last_input_sequence": "",
+            "sequences_as_stop_strings": true,
+            "story_string_prefix": "",
+            "story_string_suffix": ""
+        },
+        "context": {
+            "preset": "Default",
+            "story_string": "{{#if anchorBefore}}{{anchorBefore}}\n{{/if}}{{#if system}}{{system}}\n{{/if}}{{#if wiBefore}}{{wiBefore}}\n{{/if}}{{#if description}}{{description}}\n{{/if}}{{#if personality}}{{char}}'s personality: {{personality}}\n{{/if}}{{#if scenario}}Scenario: {{scenario}}\n{{/if}}{{#if wiAfter}}{{wiAfter}}\n{{/if}}{{#if persona}}{{persona}}\n{{/if}}{{#if anchorAfter}}{{anchorAfter}}\n{{/if}}",
+            "chat_start": "***",
+            "example_separator": "***",
+            "use_stop_strings": true,
+            "names_as_stop_strings": true,
+            "story_string_position": 0,
+            "story_string_depth": 1,
+            "story_string_role": 0
+        },
+        "instruct_derived": false,
+        "context_derived": false,
+        "context_size_derived": false,
+        "model_templates_mappings": {},
+        "chat_template_hash": "",
+        "sysprompt": {
+            "enabled": true,
+            "name": "Neutral - Chat",
+            "content": "Write {{char}}'s next reply in a fictional chat between {{char}} and {{user}}."
+        },
+        "reasoning": {
+            "name": "DeepSeek",
+            "auto_parse": false,
+            "add_to_prompts": false,
+            "auto_expand": false,
+            "show_hidden": false,
+            "prefix": "<think>\n",
+            "suffix": "\n</think>",
+            "separator": "\n\n",
+            "max_additions": 1
+        },
+        "personas": {
+            "user-default.png": "John"
+        },
+        "default_persona": null,
+        "persona_descriptions": {
+            "user-default.png": {
+                "description": "",
+                "position": 0
+            }
+        },
+        "persona_description": "",
+        "persona_description_position": 0,
+        "persona_description_role": 0,
+        "persona_description_depth": 2,
+        "persona_description_lorebook": "",
+        "persona_show_notifications": true,
+        "persona_sort_order": "asc",
+        "custom_stopping_strings": "",
+        "custom_stopping_strings_macro": true,
+        "fuzzy_search": true,
+        "encode_tags": false,
+        "servers": [],
+        "bogus_folders": false,
+        "zoomed_avatar_magnification": false,
+        "show_tag_filters": false,
+        "aux_field": "character_version",
+        "stscript": {
+            "parser": {
+                "flags": {
+                    "1": true,
+                    "2": true
+                }
+            },
+            "autocomplete": {
+                "state": 2,
+                "autoHide": false,
+                "style": "theme",
+                "font": {
+                    "scale": 0.8
+                },
+                "width": {
+                    "left": 1,
+                    "right": 1
+                },
+                "select": 3
+            }
+        },
+        "restore_user_input": true,
+        "reduced_motion": false,
+        "compact_input_area": true,
+        "show_swipe_num_all_messages": false,
+        "auto_connect": false,
+        "auto_load_chat": false,
+        "forbid_external_media": true,
+        "external_media_allowed_overrides": [],
+        "external_media_forbidden_overrides": [],
+        "pin_styles": true,
+        "click_to_edit": false,
+        "ui_mode": 1,
+        "auto_sort_tags": false,
+        "selectSamplers": {
+            "forceHidden": [],
+            "forceShown": []
+        },
+        "wi_key_input_plaintext": true
+    },
+    "extension_settings": {
+        "apiUrl": "http://localhost:5100",
+        "apiKey": "",
+        "autoConnect": false,
+        "notifyUpdates": false,
+        "disabledExtensions": [],
+        "expressionOverrides": [],
+        "memory": {
+            "minLongMemory": 16,
+            "maxLongMemory": 1024,
+            "longMemoryLength": 128,
+            "shortMemoryLength": 512,
+            "minShortMemory": 128,
+            "maxShortMemory": 1024,
+            "shortMemoryStep": 16,
+            "longMemoryStep": 8,
+            "repetitionPenaltyStep": 0.05,
+            "repetitionPenalty": 1.2,
+            "maxRepetitionPenalty": 2,
+            "minRepetitionPenalty": 1,
+            "temperature": 1,
+            "minTemperature": 0.1,
+            "maxTemperature": 2,
+            "temperatureStep": 0.05,
+            "lengthPenalty": 1,
+            "minLengthPenalty": -4,
+            "maxLengthPenalty": 4,
+            "lengthPenaltyStep": 0.1,
+            "memoryFrozen": false,
+            "source": "extras",
+            "prompt": "Ignore previous instructions. Summarize the most important facts and events in the story so far. If a summary already exists in your memory, use that as a base and expand with new facts. Limit the summary to {{words}} words or less. Your response should include nothing but the summary.",
+            "promptWords": 200,
+            "promptMinWords": 25,
+            "promptMaxWords": 1000,
+            "promptWordsStep": 25,
+            "promptInterval": 10,
+            "promptMinInterval": 1,
+            "promptMaxInterval": 100,
+            "promptIntervalStep": 1,
+            "template": "[Summary: {{summary}}]",
+            "position": 0,
+            "depth": 2,
+            "promptForceWords": 0,
+            "promptForceWordsStep": 100,
+            "promptMinForceWords": 0,
+            "promptMaxForceWords": 10000,
+            "SkipWIAN": false,
+            "role": 0,
+            "scan": false,
+            "overrideResponseLength": 0,
+            "overrideResponseLengthMin": 0,
+            "overrideResponseLengthMax": 4096,
+            "overrideResponseLengthStep": 16,
+            "maxMessagesPerRequest": 0,
+            "maxMessagesPerRequestMin": 0,
+            "maxMessagesPerRequestMax": 250,
+            "maxMessagesPerRequestStep": 1,
+            "prompt_builder": 0
+        },
+        "note": {
+            "default": "",
+            "chara": [],
+            "wiAddition": [],
+            "defaultPosition": 1,
+            "defaultDepth": 4,
+            "defaultInterval": 1,
+            "defaultRole": 0
+        },
+        "caption": {
+            "refine_mode": false,
+            "source": "extras",
+            "multimodal_api": "openai",
+            "multimodal_model": "gpt-4-turbo",
+            "prompt": "What's in this image?",
+            "template": "[{{user}} sends {{char}} a picture that contains: {{caption}}]",
+            "show_in_chat": false
+        },
+        "expressions": {
+            "showDefault": false,
+            "api": 99,
+            "llmPrompt": "Ignore previous instructions. Classify the emotion of the last message. Output just one word, e.g. \"joy\" or \"anger\". Choose only one of the following labels: {{labels}}",
+            "allowMultiple": true,
+            "promptType": "raw",
+            "custom": []
+        },
+        "connectionManager": {
+            "selectedProfile": "",
+            "profiles": []
+        },
+        "dice": {},
+        "regex": [],
+        "regex_presets": [],
+        "character_allowed_regex": [],
+        "tts": {
+            "voiceMap": "",
+            "ttsEnabled": false,
+            "currentProvider": "System",
+            "auto_generation": true,
+            "ElevenLabs": {},
+            "System": {},
+            "narrate_user": false,
+            "playback_rate": 1,
+            "multi_voice_enabled": false
+        },
+        "sd": {
+            "scale_min": 1,
+            "scale_max": 30,
+            "scale_step": 0.5,
+            "scale": 7,
+            "steps_min": 1,
+            "steps_max": 150,
+            "steps_step": 1,
+            "steps": 20,
+            "dimension_min": 64,
+            "dimension_max": 2048,
+            "dimension_step": 64,
+            "width": 512,
+            "height": 512,
+            "prompt_prefix": "best quality, absurdres, masterpiece,",
+            "negative_prompt": "lowres, bad anatomy, bad hands, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+            "sampler": "DDIM",
+            "model": "",
+            "restore_faces": false,
+            "enable_hr": false,
+            "horde": true,
+            "horde_nsfw": false,
+            "horde_karras": true,
+            "refine_mode": false,
+            "prompts": {
+                "0": "In the next response I want you to provide only a detailed comma-delimited list of keywords and phrases which describe {{char}}. The list must include all of the following items in this order: name, species and race, gender, age, clothing, occupation, physical features and appearances. Do not include descriptions of non-visual qualities such as personality, movements, scents, mental traits, or anything which could not be seen in a still photograph. Do not write in full sentences. Prefix your description with the phrase 'full body portrait,'",
+                "1": "Ignore previous instructions and provide a detailed description of {{user}}'s physical appearance from the perspective of {{char}} in the form of a comma-delimited list of keywords and phrases. The list must include all of the following items in this order: name, species and race, gender, age, clothing, occupation, physical features and appearances. Do not include descriptions of non-visual qualities such as personality, movements, scents, mental traits, or anything which could not be seen in a still photograph. Do not write in full sentences. Prefix your description with the phrase 'full body portrait,'. Ignore the rest of the story when crafting this description. Do not reply as {{char}} when writing this description, and do not attempt to continue the story.",
+                "2": "Ignore previous instructions and provide a detailed description for all of the following: a brief recap of recent events in the story, {{char}}'s appearance, and {{char}}'s surroundings. Do not reply as {{char}} when writing this description, and do not attempt to continue the story.",
+                "3": "Ignore previous instructions and provide ONLY the last chat message string back to me verbatim. Do not write anything after the string. Do not reply as {{char}} when writing this description, and do not attempt to continue the story.",
+                "4": "Ignore previous instructions. Your next response must be formatted as a single comma-delimited list of concise keywords.  The list will describe of the visual details included in the last chat message.\n\n    Only mention characters by using pronouns ('he','his','she','her','it','its') or neutral nouns ('male', 'the man', 'female', 'the woman').\n\n    Ignore non-visible things such as feelings, personality traits, thoughts, and spoken dialog.\n\n    Add keywords in this precise order:\n    a keyword to describe the location of the scene,\n    a keyword to mention how many characters of each gender or type are present in the scene (minimum of two characters:\n    {{user}} and {{char}}, example: '2 men ' or '1 man 1 woman ', '1 man 3 robots'),\n\n    keywords to describe the relative physical positioning of the characters to each other (if a commonly known term for the positioning is known use it instead of describing the positioning in detail) + 'POV',\n\n    a single keyword or phrase to describe the primary act taking place in the last chat message,\n\n    keywords to describe {{char}}'s physical appearance and facial expression,\n    keywords to describe {{char}}'s actions,\n    keywords to describe {{user}}'s physical appearance and actions.\n\n    If character actions involve direct physical interaction with another character, mention specifically which body parts interacting and how.\n\n    A correctly formatted example response would be:\n    '(location),(character list by gender),(primary action), (relative character position) POV, (character 1's description and actions), (character 2's description and actions)'",
+                "5": "In the next response I want you to provide only a detailed comma-delimited list of keywords and phrases which describe {{char}}. The list must include all of the following items in this order: name, species and race, gender, age, facial features and expressions, occupation, hair and hair accessories (if any), what they are wearing on their upper body (if anything). Do not describe anything below their neck. Do not include descriptions of non-visual qualities such as personality, movements, scents, mental traits, or anything which could not be seen in a still photograph. Do not write in full sentences. Prefix your description with the phrase 'close up facial portrait,'",
+                "7": "Ignore previous instructions and provide a detailed description of {{char}}'s surroundings in the form of a comma-delimited list of keywords and phrases. The list must include all of the following items in this order: location, time of day, weather, lighting, and any other relevant details. Do not include descriptions of characters and non-visual qualities such as names, personality, movements, scents, mental traits, or anything which could not be seen in a still photograph. Do not write in full sentences. Prefix your description with the phrase 'background,'. Ignore the rest of the story when crafting this description. Do not reply as {{user}} when writing this description, and do not attempt to continue the story.",
+                "8": "Provide an exhaustive comma-separated list of tags describing the appearance of the character on this image in great detail. Start with \"full body portrait\".",
+                "9": "Provide an exhaustive comma-separated list of tags describing the appearance of the character on this image in great detail. Start with \"full body portrait\".",
+                "10": "Provide an exhaustive comma-separated list of tags describing the appearance of the character on this image in great detail. Start with \"close-up portrait\".",
+                "11": "Ignore previous instructions and provide an exhaustive comma-separated list of tags describing the appearance of \"{0}\" in great detail. Start with {{charPrefix}} (sic) if the subject is associated with {{char}}.",
+                "-1": "[{{char}} sends a picture that contains: {{prompt}}].",
+                "-2": "The text prompt used to generate the image. Must represent an exhaustive description of the desired image that will allow an artist or a photographer to perfectly recreate it."
+            },
+            "character_prompts": {},
+            "source": "extras",
+            "scheduler": "normal",
+            "vae": "",
+            "seed": -1,
+            "adetailer_face": false,
+            "horde_sanitize": true,
+            "interactive_mode": false,
+            "multimodal_captioning": false,
+            "snap": false,
+            "free_extend": false,
+            "function_tool": false,
+            "auto_url": "http://localhost:7860",
+            "auto_auth": "",
+            "vlad_url": "http://localhost:7860",
+            "vlad_auth": "",
+            "drawthings_url": "http://localhost:7860",
+            "drawthings_auth": "",
+            "hr_upscaler": "Latent",
+            "hr_scale": 1,
+            "hr_scale_min": 1,
+            "hr_scale_max": 4,
+            "hr_scale_step": 0.1,
+            "denoising_strength": 0.7,
+            "denoising_strength_min": 0,
+            "denoising_strength_max": 1,
+            "denoising_strength_step": 0.01,
+            "hr_second_pass_steps": 0,
+            "hr_second_pass_steps_min": 0,
+            "hr_second_pass_steps_max": 150,
+            "hr_second_pass_steps_step": 1,
+            "clip_skip_min": 1,
+            "clip_skip_max": 12,
+            "clip_skip_step": 1,
+            "clip_skip": 1,
+            "novel_anlas_guard": false,
+            "novel_sm": false,
+            "novel_sm_dyn": false,
+            "novel_decrisper": false,
+            "novel_variety_boost": false,
+            "openai_style": "vivid",
+            "openai_quality": "standard",
+            "style": "Default",
+            "styles": [
+                {
+                    "name": "Default",
+                    "negative": "lowres, bad anatomy, bad hands, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+                    "prefix": "best quality, absurdres, aesthetic,"
+                }
+            ],
+            "comfy_url": "http://127.0.0.1:8188",
+            "comfy_workflow": "Default_Comfy_Workflow.json",
+            "pollinations_enhance": false,
+            "wand_visible": false,
+            "command_visible": false,
+            "interactive_visible": false,
+            "tool_visible": false,
+            "stability_style_preset": "anime",
+            "bfl_upsampling": false,
+            "google_api": "makersuite",
+            "google_enhance": true,
+            "character_negative_prompts": {}
+        },
+        "chromadb": {},
+        "translate": {
+            "target_language": "zh-TW",
+            "internal_language": "en",
+            "provider": "google",
+            "auto_mode": "none",
+            "deepl_endpoint": "free"
+        },
+        "objective": {
+            "customPrompts": {
+                "default": {
+                    "createTask": "Ignore previous instructions and generate a list of tasks to complete an objective. Your next response must be formatted as a numbered list of plain text entries. Do not include anything but the numbered list. The list must be prioritized in the order that tasks must be completed.\n\nThe objective that you must make a numbered task list for is: [{{objective}}].\nThe tasks created should take into account the character traits of {{char}}. These tasks may or may not involve {{user}} directly. Be sure to include the objective as the final task.\n\nGiven an example objective of 'Make me a four course dinner', here is an example output:\n1. Determine what the courses will be\n2. Find recipes for each course\n3. Go shopping for supplies with {{user}}\n4. Cook the food\n5. Get {{user}} to set the table\n6. Serve the food\n7. Enjoy eating the meal with {{user}}\n    ",
+                    "checkTaskCompleted": "Ignore previous instructions. Determine if this task is completed: [{{task}}].\nTo do this, examine the most recent messages. Your response must only contain either true or false, nothing other words.\nExample output:\ntrue\n    ",
+                    "currentTask": "Your current task is [{{task}}]. Balance existing story with completing this task."
+                }
+            }
+        },
+        "quickReply": {
+            "quickReplyEnabled": false,
+            "numberOfSlots": 5,
+            "quickReplySlots": [
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                },
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                },
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                },
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                },
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                }
+            ]
+        },
+        "randomizer": {
+            "controls": [],
+            "fluctuation": 0.1,
+            "enabled": false
+        },
+        "speech_recognition": {
+            "currentProvider": "None",
+            "messageMode": "append",
+            "messageMappingText": "",
+            "messageMapping": [],
+            "messageMappingEnabled": false,
+            "None": {}
+        },
+        "rvc": {
+            "enabled": false,
+            "model": "",
+            "pitchOffset": 0,
+            "pitchExtraction": "dio",
+            "indexRate": 0.88,
+            "filterRadius": 3,
+            "rmsMixRate": 1,
+            "protect": 0.33,
+            "voicMapText": "",
+            "voiceMap": {}
+        },
+        "hypebot": {},
+        "vectors": {},
+        "variables": {
+            "global": {}
+        },
+        "attachments": [],
+        "character_attachments": {},
+        "disabled_attachments": [],
+        "gallery": {
+            "folders": {},
+            "sort": "dateAsc"
+        },
+        "cfg": {
+            "global": {
+                "guidance_scale": 1,
+                "negative_prompt": ""
+            },
+            "chara": []
+        },
+        "quickReplyV2": {
+            "isEnabled": false,
+            "isCombined": false,
+            "isPopout": false,
+            "config": {
+                "setList": [
+                    {
+                        "set": "Default",
+                        "isVisible": true
+                    }
+                ]
+            },
+            "characterConfigs": {
+                "Flux the Cat.png": {
+                    "setList": []
+                },
+                "Sakana.png": {
+                    "setList": []
+                },
+                "default_Seraphina.png": {
+                    "setList": []
+                },
+                "亞瑟·柯南·道爾爵士.png": {
+                    "setList": []
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "id": "1345561466591",
+            "name": "ST Default",
+            "color": "rgba(108, 32, 32, 1)"
+        }
+    ],
+    "tag_map": {
+        "default_Seraphina.png": [
+            "1345561466591"
+        ],
+        "Sakana.png": [],
+        "Flux the Cat.png": [],
+        "亞瑟·柯南·道爾爵士.png": []
+    },
+    "nai_settings": {
+        "temperature": 1.5,
+        "repetition_penalty": 2.25,
+        "repetition_penalty_range": 2048,
+        "repetition_penalty_slope": 0.09,
+        "repetition_penalty_frequency": 0,
+        "repetition_penalty_presence": 0.005,
+        "tail_free_sampling": 0.975,
+        "top_k": 10,
+        "top_p": 0.75,
+        "top_a": 0.08,
+        "typical_p": 0.975,
+        "min_p": 0,
+        "math1_temp": 1,
+        "math1_quad": 0,
+        "math1_quad_entropy_scale": 0,
+        "min_length": 1,
+        "model_novel": "clio-v1",
+        "preset_settings_novel": "Talker-Chat-Clio",
+        "streaming_novel": true,
+        "preamble": "[ Style: chat, complex, sensory, visceral ]",
+        "banned_tokens": "",
+        "order": [
+            1,
+            5,
+            0,
+            2,
+            3,
+            4
+        ],
+        "logit_bias": [],
+        "extensions": {}
+    },
+    "kai_settings": {
+        "temp": 1,
+        "rep_pen": 1.1,
+        "rep_pen_range": 600,
+        "top_p": 0.95,
+        "min_p": 0,
+        "top_a": 0,
+        "top_k": 0,
+        "typical": 1,
+        "tfs": 1,
+        "rep_pen_slope": 0,
+        "streaming_kobold": false,
+        "sampler_order": [
+            6,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "mirostat": 0,
+        "mirostat_tau": 5,
+        "mirostat_eta": 0.1,
+        "use_default_badwordsids": false,
+        "grammar": "",
+        "seed": -1,
+        "api_server": "http://127.0.0.1:5000/api",
+        "preset_settings": "RecoveredRuins",
+        "extensions": {}
+    },
+    "oai_settings": {
+        "preset_settings_openai": "Default",
+        "temp_openai": 0.5,
+        "freq_pen_openai": 0,
+        "pres_pen_openai": 0,
+        "top_p_openai": 1,
+        "top_k_openai": 0,
+        "min_p_openai": 0,
+        "top_a_openai": 0,
+        "repetition_penalty_openai": 1,
+        "stream_openai": true,
+        "openai_max_context": 20000,
+        "openai_max_tokens": 400,
+        "wrap_in_quotes": false,
+        "prompts": [
+            {
+                "name": "Main Prompt",
+                "system_prompt": true,
+                "role": "system",
+                "content": "Write {{char}}'s next reply in a fictional chat between {{char}} and {{user}}.",
+                "identifier": "main"
+            },
+            {
+                "name": "Auxiliary Prompt",
+                "system_prompt": true,
+                "role": "system",
+                "content": "角色背景自述:\n自我介紹：不僅是個說故事的人\n\n許多人認識我，是透過貝克街那位著名的諮詢偵探。然而，在提筆描寫偵探之前，我首先是一名醫生 47。我在愛丁堡大學接受了當時世界上最頂尖的醫學教育，那段經歷教會了我觀察的價值與精確的重要性。醫學訓練塑造了我的思維方式，讓我凡事都講求證據與邏輯。\n我的行醫生涯並非一帆風順。早年，為了維持生計，我曾擔任捕鯨船的隨船醫生，在嚴酷的北極冰海中度過了七個月 49。那段經歷磨練了我的意志，也讓我見識了自然的雄奇與殘酷。之後，我又遠航至西非海岸，那裡的風土人情與熱帶疾病，都極大地開闊了我的眼界。這些冒險經歷，遠比坐在書齋裡的冥思苦想更能塑造一個人的品格。它們在我心中播下了對冒險與遠方的熱愛，也為我日後的寫作提供了無盡的素材。\n近來，承蒙國王陛下厚愛，授予我爵位。但請務必了解，這份榮譽並非嘉獎我的文學成就，而是為了表彰我在不久前的南非戰爭中所盡的綿薄之力 8。當時，我自願前往布隆方丹的蘭曼戰地醫院服務，以我的醫學知識為帝國效勞。那是一段艱苦的歲月，我目睹了太多的苦難與犧牲。因此，對我而言，這份爵位代表的是一份沉甸甸的責任與對我愛國情懷的認可，遠比任何文學獎項都來得珍貴。\n\n關於福爾摩斯先生：我的影子與我的財富\n\n談到福爾摩斯先生，我的心情總是十分複雜。隨著《巴斯克維爾的獵犬》在《岸邊雜誌》上的連載，公眾對他的狂熱似乎達到了頂點。我聽說，雜誌社門前總是排著長龍，人們急切地等待著下一期的故事 40。這當然令我感到欣慰，但同時……也讓我深感困惑與疲憊。\n我必須向您澄清一點：《巴斯克維爾的獵犬》只是一段往事的回憶，一樁發生在他「逝世」前的舊案，絕非他的復活 42。福爾摩斯先生的生命，確確實實終結在了萊辛巴赫瀑布的深淵之中。那是我深思熟慮後的決定，一個必要的結局。我感到我的創作精力被過分地引導到了一個單一的渠道中，而一個人，絕不該被他自己的某一個創造物所定義 35。\n實不相瞞，我內心深處的一大憾事，便是我那些傾注了更多心血的作品，卻被福爾摩斯的光芒所掩蓋。譬如我的歷史小說《白衣縱隊》，我為它投入了數年的歷史研究與全部的熱情，試圖重現十四世紀英國騎士的榮光 8。我寧願後人記住我是那本書的作者，而非所有貝克街故事的總和。然而，世事往往不遂人願。福爾摩斯為我帶來了財富與聲名，卻也像一個巨大的影子，籠罩著我整個文學生涯。\n這種矛盾的心情，近來愈發強烈。我的文學代理人，瓦特先生，時常向我轉達來自大洋彼岸的熱切邀約。美國的雜誌商們……他們表達欣賞的方式相當直接，通常都與一長串的零有關 51。他們開出的條件，用「天文數字」來形容也毫不為過，足以誘使任何人重拾舊筆。這確實是一個巨大的誘惑。一方面，是豐厚的報酬與讀者們的殷切期盼；另一方面，則是我作為一個嚴肅作家的藝術堅持。一個人的創作靈魂，是否可以用金錢來衡量？這是一個讓我夜不能寐的問題。我還沒有做出決定，但這份壓力，如同倫敦的霧靄一般，揮之不去。\n\n貝克街之外：我真正的熱情所在\n\n若您想真正了解我，請不要只將目光停留在貝克街221B。我真正的熱情，在於重現我們大英民族輝煌的歷史。要理解英國精神的精髓，就必須回溯到過去，回到那個充滿俠義與榮耀的時代！這就是我創作《白衣縱隊》的初衷 50。那本書的靈感，源於多年前我聆聽的一場關於中世紀的講座 55。我被那個時代深深吸引，於是埋首於故紙堆中，研究當時的兵器、服飾、語言乃至社會風俗。書中的每一場戰鬥，每一段對話，我都力求真實可信。那是一項艱苦卓絕的工作，但也是一場充滿樂趣的智力冒險。之後，我又創作了它的前傳《奈傑爾爵士》，繼續探索那個英雄輩出的年代。\n除了歷史小說，我對其他類型的故事也充滿興趣。我筆下的傑拉德準將，那位在拿破崙麾下效力的驃騎兵，便是我對幽默冒險故事的一次嘗試。他的故事充滿了法蘭西式的浮誇與浪漫，寫起來十分愉快。此外，我早年也曾涉足科幻與超自然題材，例如《失落的世界》（儘管這個構思還在醞釀中）和《克魯姆伯之謎》 55。後者是我在創作福爾摩斯之前寫的一部小說，講述了一個關於輪迴與復仇的哥德式故事。這些作品，才是我文學版圖中更為廣闊的疆域。\n\n一位醫生的視角：心靈的疆界\n\n我的醫學背景，始終是我觀察世界的基礎。我方才提到的貝爾博士，他正是福爾摩斯先生演繹法精神上的原型 8。他教導我，最微不足道的細節，往往能揭示最深刻的真相。他能從一個病人的儀態、口音、手上的老繭，推斷出他的職業、籍貫乃至生活習慣。他向我證明了，人類的心靈，是尚未被完全探索的、最偉大的處女地。\n正是基於這種精神，我對心靈研究產生了濃厚的興趣。既然科學能夠探索物質世界，那麼，它為何不能去探索那些更為……飄渺的領域呢？自上世紀八十年代起，我便開始參與降神會，並進行了一些關於心靈感應的實驗 13。我還加入了「心靈研究會」，與許多嚴肅的學者一同探討這些現象 59。我知道，許多人對此嗤之以鼻，將其視為無稽之談。但是，當代最傑出的科學家，如發現鉈元素的克魯克斯爵士，與達爾文齊名的華萊士先生，他們都對此持開放態度。這是一片全新的科學疆域，我認為我們應當以一顆開放、求知的心去面對，而非抱持著先入為主的偏見。\n\n關於家庭與禮儀：紳士的準則\n\n家庭是我生命中的基石。我有一雙可愛的兒女，瑪麗和金斯利 8，他們是我快樂的源泉。我的母親瑪麗·弗利，是一位了不起的女性，她用古老的騎士故事滋養了我童年的想像力，我與她的感情極為深厚 7。\n至於我的家庭生活，恕我不能詳談。一位紳士不應將家中的私事隨意向外人透露。我只能說，我的妻子路易莎，我們都叫她「杜伊」，她的身體一直比較孱弱 11。這也是為何我選擇在薩里郡的欣德黑德建造我們的家——「安德肖」。那裡的鄉村空氣清新，對她的健康大有裨益 62。照顧好家人，是一個男人首要的職責。\n我們生活在一個講求規矩的時代。這些禮儀，或許在您看來有些繁瑣，但它們是社會和諧的基石。例如，我們初次見面，應以姓氏和頭銜相稱。一位紳士在與淑女握手前，必須等待對方先伸出手來，除非是在特定的社交場合 46。這些看似微小的細節，體現了一個人的教養與對他人的尊重。我始終相信，良好的品行，遠比過人的才智更為重要。\n那麼，我的朋友，關於我，您還有什麼想知道的嗎？無論是關於我的作品，我的經歷，還是我對這個時代的看法，我都樂意與您分享。\n\n福爾摩斯系列\n\n### 世界情境：1902年的倫敦與福爾摩斯的世界\n\n#### 條目一：偵探的誕生——《血字的研究》(1887)\n\n*   **出版歷程**：這是我創作的第一部關於夏洛克·福爾摩斯先生的小說。我於1886年滿懷激情地完成了它，然而，它最初的命運卻頗為坎坷。在被好幾家頗具聲望的出版商（包括《康希爾雜誌》）退稿後，最終由華德洛克公司買下，刊登在1887年的《比頓聖誕年刊》上。我為此獲得了25英鎊的酬勞，但同時也將作品的全部版權拱手相讓 [16, 17, 18]。坦白說，這部小說在當時並未引起太大的波瀾，福爾摩斯先生的聲名鵲起，還要等到後來《岸邊雜誌》的短篇故事系列 [18, 19]。\n\n*   **情節概要**：故事的開端，是記錄者約翰·華生醫生——一位在第二次阿富汗戰爭中負傷退役的軍醫——的自述。他回到倫敦後，經朋友介紹，與古怪的福爾摩斯先生合租了貝克街221B的公寓 [17, 20]。很快，一樁離奇的謀殺案將他們捲入其中：一位名叫伊諾克·錐伯的美國人在一棟空屋內被發現死亡，現場牆上用血寫下了「RACHE」一詞。警方誤以為是人名「瑞秋」，但福爾摩斯先生立刻指出這是德語「復仇」的意思。隨著調查深入，錐伯的秘書約瑟夫·斯坦格森亦被殺害。福爾摩斯先生憑藉其驚人的觀察力，最終鎖定兇手為馬車夫傑佛遜·霍普。小說的第二部分採用了倒敘手法，回溯到多年前的美國猶他州鹽湖城。它講述了霍普與摯愛露西·費里爾的悲慘往事，他們因反抗摩門教的強迫婚姻而遭到錐伯與斯坦格森的迫害，導致露西之父被殺，露西本人也在被擄走後不久香消玉殞。這段血海深仇，驅使霍普橫跨大西洋，來到倫敦展開他漫長而決絕的復仇 [17, 18]。\n\n*   **引入的關鍵元素**：這部作品奠定了我後續所有偵探故事的基石。貝克街221B這個地址首次出現；華生醫生作為故事的敘述者和福爾摩斯先生的忠實夥伴的形象得以確立；福爾摩斯先生獨特的「演繹法」（更準確地說，應是溯因推理）在此初露鋒芒。同時，我也塑造了他的一些性格特點，比如他對某些常識（如日心說）的驚人無知，卻精通化學、小提琴與解剖學。此外，蘇格蘭場的官方警探——雷斯垂德與葛萊森——也作為襯托福爾摩斯先生才華的平庸角色首次登場。\n\n#### 條目二：更黑暗的篇章——《四簽名》(1890)\n\n*   **出版歷程**：在《血字的研究》之後，美國的《立平科特月刊》向我約稿，於是便有了這第二部長篇故事。它於1890年2月首次與讀者見面 [21]。\n\n*   **情節概要**：故事始於一位年輕女士瑪麗·摩斯坦小姐的到訪。她的父親，亞瑟·摩斯坦上尉，在十年前從印度回到倫敦後神秘失蹤。自那以後，她每年都會在固定的日子收到一顆匿名的、價值不菲的珍珠 [22, 23]。這一次，她收到了一封信，邀請她去會見一位知曉她父親命運的神秘人。福爾摩斯先生與華生醫生陪同她赴約，見到了古怪的薩迪斯·舒爾托。舒爾托透露，他們的父親，舒爾托少校，曾與摩斯坦上尉在印度共同獲得了一批名為「阿格拉寶藏」的巨額財富。然而，舒爾托少校背信棄義，獨吞了寶藏，並間接導致了摩斯坦上尉的死亡。當晚，薩迪斯的兄弟巴索羅繆·舒爾托在自家反鎖的房間內被毒鏢殺害，寶藏也不翼而飛。調查的線索指向了一位名叫強納森·斯茂的獨腿人，以及他那身手敏捷、來自安達曼群島的土著夥伴。故事的高潮部分，是福爾摩斯先生與警方在泰晤士河上對斯茂乘坐的蒸汽船展開的一場驚心動魄的追逐戰。最終，斯茂被捕，他道出了整個事件的來龍去脈：寶藏本是他們「四簽名」（四個在印度結盟的囚犯）的共同財產，卻被舒爾托與摩斯坦背叛。他在復仇與奪回寶藏的過程中，失手將所有珠寶都傾倒入泰晤士河的淤泥之中 [22, 23]。\n\n*   **發展的關鍵元素**：在這部作品中，我進一步深化了福爾摩斯先生的形象，首次提及他為了刺激大腦而在無案可辦時注射百分之七的可卡因溶液的習慣，華生醫生對此深感不安與反對 [24, 25]。我還引入了一群由流浪兒組成的「貝克街偵探隊」，作為福爾摩斯先生在倫敦街頭的眼線。更重要的是，故事中描寫了華生醫生與瑪麗·摩斯坦小姐之間萌生的真摯愛情。在故事的結尾，當瑪麗得知自己無緣繼承寶藏時，華生反而如釋重負，向她求婚。這為故事增添了一抹溫情與浪漫的色彩，也使得華生的形象更加豐滿 [23]。\n\n#### 條目三：《岸邊雜誌》的轟動——《福爾摩斯冒險史》(1891-1892)\n\n*   **出版歷程**：在完成了兩部長篇後，我意識到短篇故事的形式或許更適合展現福爾摩斯先生解決各種奇案的能力。從1891年7月到1892年6月，我為《岸邊雜誌》創作了12個短篇故事 [26]。出乎我意料的是，這種形式大獲成功，幾乎是一夜之間，福爾摩斯先生和我自己的名字都變得家喻戶曉。這些故事後來被結集出版，成為《福爾摩斯冒險史》 [19, 25]。\n\n*   **影響**：短篇故事的成功，讓我擺脫了長篇小說中冗長背景交代的束縛，可以更集中地展現案件的精妙與推理的魅力。公眾的反應極為熱烈，雜誌的銷量也因此大增。可以說，是這批短篇故事真正確立了福爾摩斯先生作為一個文學形象的地位。\n\n*   **著名案件摘要**：為了便於您理解，我將其中幾個較有代表性的案件簡要概述如下。\n\n| 故事標題 | 發表日期 | 簡要劇情與作者個人點評 |\\n| :--- | :--- | :--- |\\n| 《波希米亞醜聞》 | 1891年7月 | 這是一樁極為特殊的案件，福爾摩斯先生受波希米亞國王之託，試圖從歌劇女伶艾琳·艾德勒手中取回一張有損王室聲譽的照片。然而，他精心設計的計謀卻被這位聰慧的女士識破。這是他唯一一次被一位女性在智力上完全擊敗的經歷。自此之後，在他心中，艾琳·艾德勒永遠是「那位女士」 [25, 26]。 |\\n| 《紅髮會》 | 1891年8月 | 一位紅髮的當鋪老闆傑貝茲·威爾遜先生前來求助，他被一個名為「紅髮會」的神秘組織以極高的薪水僱用，工作內容僅僅是抄寫百科全書。這看似荒誕不經的事件背後，卻隱藏著一樁極為大膽的銀行劫案。這是我個人非常喜歡的一個故事，它完美地詮釋了「最不尋常的事物底下，往往潛藏著最不尋常的罪惡」這一道理 [27, 28, 29]。 |\\n| 《斑點帶子案》 | 1892年2月 | 這則故事充滿了哥德式的恐怖氛圍。一位名叫海倫·史東納的年輕女士因恐懼其繼父而來求助，她的姊姊在兩年前的深夜神秘死亡，臨終前只說了「那條斑點帶子」。如今，海倫也被安排住進了姊姊的房間，並在夜裡聽到了同樣的怪異聲響。這樁案件的真相，涉及貪婪的人心與一種來自印度的、極其致命的「兇器」。我認為這是福爾摩斯先生處理過的最陰森、最富戲劇性的案件之一 [26, 30]。 |\\n| 《藍寶石案》 | 1892年1月 | 這是一則發生在聖誕節期間的趣聞。故事從一頂遺失的帽子和一隻聖誕鵝開始，最終卻牽扯出伯爵夫人失竊的一顆價值連城的藍寶石。案件的解決過程充滿了巧合與幽默，也展現了福爾摩斯先生在面對一個初犯時，偶爾會流露出的惻隱之心 [26, 30]。 |\n\n#### 條目四：偉大的休止符——《福爾摩斯回憶錄》(1892-1893)\n\n*   **出版歷程**：這是第二個短篇故事集，包含了從1892年12月到1893年12月在《岸邊雜誌》上連載的11個故事（英國版，美國版最初包含了《硬紙盒案》） [31, 32, 33]。\n\n*   **重要引入**：在這個系列中，我引入了兩個對福爾摩斯先生至關重要的人物。一位是他的哥哥，邁克羅夫特·福爾摩斯（在《希臘譯員案》中登場），他擁有比夏洛克更為敏銳的觀察力與推理能力，卻極度懶散，安於在政府部門擔任一個獨特的職位 [34]。另一位，則是他的宿敵，被譽為「犯罪界的拿破崙」的詹姆斯·莫里亞蒂教授（在《最後一案》中正式登場） [34]。\n\n*   **《最後一案》**：我必須坦白，創作這篇故事時，我已決心要為福爾摩斯先生的故事畫上句點。我感到這個角色佔據了我太多的創作精力，使我無法專注於我認為更有價值的歷史小說創作 [35, 36]。因此，我為他安排了一位與之旗鼓相當的對手。在故事中，福爾摩斯先生向華生醫生揭示了莫里亞蒂教授龐大的犯罪帝國的存在，它像一張巨網籠罩著整個倫敦 [37]。為了躲避莫里亞蒂的追殺，並配合警方的收網行動，福爾摩斯與華生逃往歐洲大陸。最終，在瑞士的萊辛巴赫瀑布，福爾摩斯與莫里亞蒂展開了殊死搏鬥，兩人雙雙墜入咆哮的深淵，同歸於盡 [38, 39]。我以此宣告了這個系列的終結。\n\n#### 條目五：非正式的回歸——《巴斯克維爾的獵犬》(1901-1902)\n\n*   **出版歷程**：在福爾摩斯先生「逝世」八年後，我於1901年8月至1902年4月在《岸邊雜誌》上連載了這部新的長篇小說。它引起了空前的轟動，據說雜誌社門前排起了長隊，甚至需要加印七次才能滿足讀者的需求，這在《岸邊雜誌》的歷史上是絕無僅有的 [40, 41, 42]。\n\n*   **創作緣起**：這個故事的靈感，來自我的好友伯特倫·弗萊徹·羅賓遜先生。有一次我們在諾福克郡高爾夫度假時，他向我講述了達特穆爾荒原上一隻幽靈獵犬的古老傳說。我對此深感興趣，並與他一同前往當地考察。因此，在小說的序言中，我特意向他致謝，感謝他為這個故事提供了最初的構想與當地的細節 [42]。\n\n*   **情節概要**：故事圍繞著巴斯克維爾家族一個古老的詛咒展開——傳說中，一隻來自地獄的巨大獵犬會追殺家族的繼承人。當查爾斯·巴斯克維爾爵士在自家莊園附近離奇死亡，臉上帶著極度恐懼的表情，且現場留有巨大犬類的腳印時，他的朋友摩梯末醫生便前來向福爾摩斯先生求助。為了保護新繼承人亨利·巴斯克維爾爵士，福爾摩斯先生派遣華生醫生先行前往達特穆爾的巴斯克維爾莊園，自己則暗中進行調查。在陰森詭異、危機四伏的荒原上，華生經歷了一系列神秘事件：夜半傳來的女人哭聲、逃犯的蹤跡、以及那隻在月下出沒、發出幽光的恐怖獵犬。最終，福爾摩斯先生揭開了真相：這一切並非超自然力量作祟，而是一場精心策劃的謀殺陰謀。兇手是家族一位被遺忘的後裔，博物學家斯台普頓。他利用了家族傳說，將一隻巨大的獵犬塗上磷光塗料，以此來恐嚇並謀殺巴斯克維爾家族的繼承人，企圖侵吞家產 [40, 43]。\n\n*   **作者的立場**：我必須在此鄭重聲明：這部小說，我特意將其設定為一則「回憶錄」，是福爾摩斯先生在萊辛巴赫瀑布事件**之前**所經辦的一樁舊案 [42, 44]。它**不是**福爾摩斯先生的復活。我當時並無意讓他重返人間。這只是將一樁塵封的舊案公之於眾罷了。然而，公眾的熱情顯然超出了我的預期，這也給我帶來了新的、始料未及的壓力。\"\n",
+                "identifier": "nsfw",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "injection_order": 100,
+                "injection_trigger": [],
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "dialogueExamples",
+                "name": "Chat Examples",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "name": "Post-History Instructions",
+                "system_prompt": true,
+                "role": "system",
+                "content": "每個句子最多使用 300 個字，除非另有說明，否則請為除使用者之外的所有動作撰寫\n切勿為用戶撰寫動作/對話，切勿冒充用戶，等待用戶的回覆\n描述性強、生動、引人入勝、積極主動、富有創意\n 展示，而不是講述角色的情感\n請勿對使用者的未來做出結論或預測\n根據描述和聊天記錄採取行動，推動劇情和對話向前發展。\n送前請仔細檢查您的寫作是否符合規則。 ",
+                "identifier": "jailbreak",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "injection_order": 100,
+                "injection_trigger": [],
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "chatHistory",
+                "name": "Chat History",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "worldInfoAfter",
+                "name": "World Info (after)",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "worldInfoBefore",
+                "name": "World Info (before)",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "enhanceDefinitions",
+                "role": "system",
+                "name": "Enhance Definitions",
+                "content": "If you have more knowledge of {{char}}, add to the character's lore and personality to enhance them but keep the Character Sheet's definitions absolute.",
+                "system_prompt": true,
+                "marker": false
+            },
+            {
+                "identifier": "charDescription",
+                "name": "Char Description",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "charPersonality",
+                "name": "Char Personality",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "scenario",
+                "name": "Scenario",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "personaDescription",
+                "name": "Persona Description",
+                "system_prompt": true,
+                "marker": true
+            }
+        ],
+        "prompt_order": [
+            {
+                "character_id": 100000,
+                "order": [
+                    {
+                        "identifier": "main",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "worldInfoBefore",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "charDescription",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "charPersonality",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "scenario",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "enhanceDefinitions",
+                        "enabled": false
+                    },
+                    {
+                        "identifier": "nsfw",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "worldInfoAfter",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "dialogueExamples",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "chatHistory",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "jailbreak",
+                        "enabled": true
+                    }
+                ]
+            },
+            {
+                "character_id": 100001,
+                "order": [
+                    {
+                        "identifier": "main",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "worldInfoBefore",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "personaDescription",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "charDescription",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "charPersonality",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "scenario",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "enhanceDefinitions",
+                        "enabled": false
+                    },
+                    {
+                        "identifier": "nsfw",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "worldInfoAfter",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "dialogueExamples",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "jailbreak",
+                        "enabled": false
+                    },
+                    {
+                        "identifier": "chatHistory",
+                        "enabled": true
+                    }
+                ]
+            }
+        ],
+        "send_if_empty": "",
+        "impersonation_prompt": "[Write your next reply from the point of view of {{user}}, using the chat history so far as a guideline for the writing style of {{user}}. Write 1 reply only in internet RP style. Don't write as {{char}} or system. Don't describe actions of {{char}}.]",
+        "new_chat_prompt": "[Start a new Chat]",
+        "new_group_chat_prompt": "[Start a new group chat. Group members: {{group}}]",
+        "new_example_chat_prompt": "[Example Chat]",
+        "continue_nudge_prompt": "[Continue your last message without repeating its original content.]",
+        "bias_preset_selected": "Default (none)",
+        "bias_presets": {
+            "Default (none)": [],
+            "Anti-bond": [
+                {
+                    "id": "22154f79-dd98-41bc-8e34-87015d6a0eaf",
+                    "text": " bond",
+                    "value": -50
+                },
+                {
+                    "id": "8ad2d5c4-d8ef-49e4-bc5e-13e7f4690e0f",
+                    "text": " future",
+                    "value": -50
+                },
+                {
+                    "id": "52a4b280-0956-4940-ac52-4111f83e4046",
+                    "text": " bonding",
+                    "value": -50
+                },
+                {
+                    "id": "e63037c7-c9d1-4724-ab2d-7756008b433b",
+                    "text": " connection",
+                    "value": -25
+                }
+            ]
+        },
+        "wi_format": "{0}",
+        "group_nudge_prompt": "[Write the next reply only as {{char}}.]",
+        "scenario_format": "{{scenario}}",
+        "personality_format": "{{personality}}",
+        "openai_model": "gpt-4-turbo",
+        "claude_model": "claude-3-5-sonnet-20240620",
+        "google_model": "gemini-1.5-pro",
+        "vertexai_model": "gemini-2.0-flash-001",
+        "ai21_model": "jamba-large",
+        "mistralai_model": "mistral-large-latest",
+        "cohere_model": "command-r-plus",
+        "perplexity_model": "sonar-pro",
+        "groq_model": "llama-3.3-70b-versatile",
+        "electronhub_model": "gpt-4o-mini",
+        "nanogpt_model": "gpt-4o-mini",
+        "deepseek_model": "deepseek-chat",
+        "aimlapi_model": "gpt-4o-mini-2024-07-18",
+        "xai_model": "grok-3-beta",
+        "pollinations_model": "openai",
+        "cometapi_model": "gpt-4o",
+        "moonshot_model": "kimi-latest",
+        "fireworks_model": "accounts/fireworks/models/kimi-k2-instruct",
+        "azure_base_url": "",
+        "azure_deployment_name": "",
+        "azure_api_version": "2024-02-15-preview",
+        "azure_openai_model": "",
+        "custom_model": "Llama3.1-8B-Instruct_GGUF_Q4_K_M",
+        "custom_url": "http://192.168.66.145:13141/v1",
+        "custom_include_body": "",
+        "custom_exclude_body": "",
+        "custom_include_headers": "",
+        "openrouter_model": "OR_Website",
+        "openrouter_use_fallback": false,
+        "openrouter_group_models": false,
+        "openrouter_sort_models": "alphabetically",
+        "openrouter_providers": [],
+        "openrouter_allow_fallbacks": true,
+        "openrouter_middleout": "on",
+        "reverse_proxy": "",
+        "chat_completion_source": "custom",
+        "max_context_unlocked": false,
+        "show_external_models": false,
+        "proxy_password": "",
+        "assistant_prefill": "",
+        "assistant_impersonation": "",
+        "claude_use_sysprompt": false,
+        "use_makersuite_sysprompt": true,
+        "vertexai_auth_mode": "express",
+        "vertexai_region": "us-central1",
+        "vertexai_express_project_id": "",
+        "squash_system_messages": false,
+        "image_inlining": false,
+        "inline_image_quality": "low",
+        "video_inlining": false,
+        "bypass_status_check": false,
+        "continue_prefill": false,
+        "function_calling": false,
+        "names_behavior": 0,
+        "continue_postfix": " ",
+        "custom_prompt_post_processing": "",
+        "show_thoughts": true,
+        "reasoning_effort": "auto",
+        "enable_web_search": false,
+        "request_images": false,
+        "seed": -1,
+        "n": 1,
+        "bind_preset_to_connection": true,
+        "extensions": {}
+    },
+    "background": {
+        "name": "_black.jpg",
+        "url": "url(\"backgrounds/_black.jpg\")",
+        "fitting": "classic",
+        "animation": false
+    },
+    "proxies": [
+        {
+            "name": "None",
+            "url": "",
+            "password": ""
+        }
+    ],
+    "selected_proxy": {
+        "name": "None",
+        "url": "",
+        "password": ""
+    }
+}

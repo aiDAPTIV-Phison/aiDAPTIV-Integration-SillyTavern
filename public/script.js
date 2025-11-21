@@ -10,6 +10,8 @@ import {
     default as libs,
 } from './lib.js';
 
+import { initKvCachePreloader } from './scripts/kv-cache-preloader.js';
+
 import { humanizedDateTime, favsToHotswap, getMessageTimeStamp, dragElement, isMobile, initRossMods } from './scripts/RossAscends-mods.js';
 import { userStatsHandler, statMesProcess, initStats } from './scripts/stats.js';
 import {
@@ -659,6 +661,7 @@ async function firstLoadInit() {
     initDefaultSlashCommands();
     initTextGenModels();
     initOpenAI();
+    initKvCachePreloader();
     initTextGenSettings();
     initKoboldSettings();
     initNovelAISettings();
