@@ -1079,7 +1079,7 @@
         "azure_api_version": "2024-02-15-preview",
         "azure_openai_model": "",
         "custom_model": "Llama3.1-8B-Instruct_GGUF_Q4_K_M",
-        "custom_url": "http://192.168.66.145:13141/v1",
+        "custom_url": "http://127.0.0.1:13141/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",

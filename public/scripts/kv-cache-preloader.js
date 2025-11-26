@@ -48,7 +48,7 @@ async function onChatLoaded() {
 
         if (prompt && Array.isArray(prompt) && prompt.length > 0) {
             // Use configured settings
-            const apiUrl = oai_settings.custom_url || 'http://127.0.0.1:13141/v1';
+            const apiUrl = oai_settings.custom_url || oai_settings.reverse_proxy || 'http://127.0.0.1:13141/v1';
             const model = oai_settings.custom_model || 'Llama-3.2-3B-Instruct-Q4_K_M';
 
             // Ensure URL ends with /chat/completions
