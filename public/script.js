@@ -6705,6 +6705,7 @@ export async function getChat() {
             chat_metadata['integrity'] = uuidv4();
         }
         await getChatResult();
+        console.log(characters);
         eventSource.emit('chatLoaded', { detail: { id: this_chid, character: characters[this_chid] } });
 
         // Focus on the textarea if not already focused on a visible text input
