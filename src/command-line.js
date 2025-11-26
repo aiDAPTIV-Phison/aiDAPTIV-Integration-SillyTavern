@@ -11,6 +11,7 @@ import { initConfig } from './config-init.js';
  * @typedef {object} CommandLineArguments Parsed command line arguments
  * @property {string} configPath Path to the config file
  * @property {string} dataRoot Data root directory
+ * @property {boolean} demo Enables demo mode
  * @property {number} port Port number
  * @property {boolean} listen If SillyTavern is listening on all network interfaces
  * @property {string} listenAddressIPv6 IPv6 address to listen to
@@ -55,6 +56,7 @@ export class CommandLineParser {
         return Object.freeze({
             configPath: configPath,
             dataRoot: dataPath,
+            demo: false,
             port: 8000,
             listen: false,
             listenAddressIPv6: '[::]',
@@ -109,6 +111,11 @@ export class CommandLineParser {
                 type: 'boolean',
                 default: null,
                 describe: 'Use global data and config paths instead of the server directory',
+            })
+            .option('demo', {
+                type: 'boolean',
+                default: null,
+                describe: 'Enables demo mode with custom defaults and example content',
             })
             .option('configPath', {
                 type: 'string',
@@ -282,6 +289,7 @@ export class CommandLineParser {
         const result = {
             configPath: configPath,
             dataRoot: dataRoot,
+            demo: cliArguments.demo ?? false,
             port: cliArguments.port ?? getConfigValue('port', defaultConfig.port, 'number'),
             listen: cliArguments.listen ?? getConfigValue('listen', defaultConfig.listen, 'boolean'),
             listenAddressIPv6: cliArguments.listenAddressIPv6 ?? getConfigValue('listenAddress.ipv6', defaultConfig.listenAddressIPv6),

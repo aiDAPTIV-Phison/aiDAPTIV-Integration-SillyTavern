@@ -686,34 +686,43 @@ async function firstLoadInit() {
     await getUserAvatars(true, user_avatar);
     await getCharacters();
 
-    // Auto-load Example character
-    const exampleCharName = '亞瑟·柯南·道爾爵士';
-    let exampleCharIndex = characters.findIndex(c => c.name === exampleCharName);
+    
+    try {
+        const demoRes = await fetch('demo_mode.json', { cache: 'no-store' });
+        if (demoRes.ok) {
+            const demoCfg = await demoRes.json();
+            if (demoCfg.demo) {
+                const exampleCharName = '亞瑟·柯南·道爾爵士';
+                let exampleCharIndex = characters.findIndex(c => c.name === exampleCharName);
 
-    if (exampleCharIndex === -1) {
-        console.log('Example character not found, attempting to import from /Example...');
-        try {
-            const response = await fetch(`/Example/${exampleCharName}.json`);
-            if (response.ok) {
-                const blob = await response.blob();
-                const file = new File([blob], `${exampleCharName}.json`, { type: 'application/json' });
-                await importCharacter(file);
-                console.log('Imported example character');
-                
-                // Refresh characters list
-                await getCharacters();
-                exampleCharIndex = characters.findIndex(c => c.name === exampleCharName);
-            } else {
-                console.warn('Example character file not found in /Example');
+                if (exampleCharIndex === -1) {
+                    console.log('Demo Mode: Character not found, attempting to import from /Example...');
+                    try {
+                        const response = await fetch(`/Example/${exampleCharName}.json`);
+                        if (response.ok) {
+                            const blob = await response.blob();
+                            const file = new File([blob], `${exampleCharName}.json`, { type: 'application/json' });
+                            await importCharacter(file);
+                            console.log('Demo Mode: Imported example character');
+                            
+                            await getCharacters();
+                            exampleCharIndex = characters.findIndex(c => c.name === exampleCharName);
+                        } else {
+                            console.warn('Demo Mode: Example character file not found in /Example');
+                        }
+                    } catch (err) {
+                        console.error('Demo Mode: Failed to import example character:', err);
+                    }
+                }
+
+                if (exampleCharIndex !== -1) {
+                    console.log('Demo Mode: Auto-loading Example character:', exampleCharName);
+                    await selectCharacterById(exampleCharIndex);
+                }
             }
-        } catch (err) {
-            console.error('Failed to import example character:', err);
         }
-    }
-
-    if (exampleCharIndex !== -1) {
-        console.log('Auto-loading Example character:', exampleCharName);
-        await selectCharacterById(exampleCharIndex);
+    } catch (e) {
+        
     }
 
     await getBackgrounds();
