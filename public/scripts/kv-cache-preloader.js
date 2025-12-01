@@ -27,7 +27,7 @@ async function onChatLoaded() {
     }
 
     const character = characters[this_chid];
-    
+
     console.log(`KV Cache Preloader: Processing chat for ${character.name}. Chat length: ${chat?.length}`);
     if (chat && chat.length > 0) {
         console.log(`KV Cache Preloader: First message:`, chat[0]);
@@ -73,7 +73,7 @@ async function onChatLoaded() {
         if (prompt && Array.isArray(prompt) && prompt.length > 0) {
             // Use configured settings
             const apiUrl = oai_settings.custom_url || oai_settings.reverse_proxy || 'http://127.0.0.1:13141/v1';
-            const model = oai_settings.custom_model || 'Llama-3.2-3B-Instruct-Q4_K_M';
+            const model = oai_settings.custom_model || 'Meta-Llama-3.1-8B-Instruct-Q4_K_M';
 
             // Ensure URL ends with /chat/completions
             let fetchUrl = apiUrl;

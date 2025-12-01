@@ -49,9 +49,4 @@ $env:NODE_ENV = "production"
 
 Start-Process cmd -ArgumentList "/c npm install --no-audit --no-fund --loglevel=error --no-progress --omit=dev" -Wait
 
-
-Write-Host "Starting SillyTavern..." -ForegroundColor Green
-node server.js
-
-Write-Host "Server stopped." -ForegroundColor Yellow
 Read-Host "Press Enter to exit"
