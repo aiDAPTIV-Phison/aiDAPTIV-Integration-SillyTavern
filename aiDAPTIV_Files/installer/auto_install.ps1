@@ -42,7 +42,7 @@ try {
 }
 
 # Switch to project root directory
-Set-Location "$PSScriptRoot\.."
+Set-Location "$PSScriptRoot\..\.."
 
 Write-Host "Installing dependencies..." -ForegroundColor Cyan
 $env:NODE_ENV = "production"

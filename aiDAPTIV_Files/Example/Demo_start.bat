@@ -1,6 +1,6 @@
 @echo off
 pushd %~dp0
-cd ..
+cd ..\..
 set NODE_ENV=production
 node server.js --demo %*
 pause
