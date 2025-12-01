@@ -14,7 +14,7 @@
     },
     "currentVersion": "1.13.4",
     "username": "John",
-    "active_character": "亞瑟·柯南·道爾爵士.json",
+    "active_character": "Sir-Arthur-Conan-Doyle.json",
     "active_group": null,
     "user_avatar": "user-default.png",
     "amount_gen": 350,
@@ -728,7 +728,7 @@
                 "default_Seraphina.png": {
                     "setList": []
                 },
-                "亞瑟·柯南·道爾爵士.png": {
+                "Sir-Arthur-Conan-Doyle.png": {
                     "setList": []
                 }
             }
@@ -747,7 +747,7 @@
         ],
         "Sakana.png": [],
         "Flux the Cat.png": [],
-        "亞瑟·柯南·道爾爵士.png": []
+        "Sir-Arthur-Conan-Doyle.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -1078,7 +1078,7 @@
         "azure_deployment_name": "",
         "azure_api_version": "2024-02-15-preview",
         "azure_openai_model": "",
-        "custom_model": "Llama-3.2-3B-Instruct-Q4_K_M",
+        "custom_model": "Meta-Llama-3.1-8B-Instruct-Q4_K_M",
         "custom_url": "http://127.0.0.1:13141/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",

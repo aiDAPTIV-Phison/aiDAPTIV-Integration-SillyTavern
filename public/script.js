@@ -692,7 +692,7 @@ async function firstLoadInit() {
         if (demoRes.ok) {
             const demoCfg = await demoRes.json();
             if (demoCfg.demo) {
-                const exampleCharName = '亞瑟·柯南·道爾爵士';
+                const exampleCharName = 'Sir-Arthur-Conan-Doyle';
                 let exampleCharIndex = characters.findIndex(c => c.name === exampleCharName);
 
                 if (exampleCharIndex === -1) {

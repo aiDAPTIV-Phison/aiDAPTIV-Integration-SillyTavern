@@ -32,8 +32,8 @@ if (cliArgs.demo) {
     }
 
     // Copy Character
-    const charSource = path.join(exampleDir, '亞瑟·柯南·道爾爵士.json');
-    const charDest = path.join(charactersDir, '亞瑟·柯南·道爾爵士.json');
+    const charSource = path.join(exampleDir, 'Sir-Arthur-Conan-Doyle.json');
+    const charDest = path.join(charactersDir, 'Sir-Arthur-Conan-Doyle.json');
     if (fs.existsSync(charSource)) {
         console.log('Copying demo character...');
         fs.copyFileSync(charSource, charDest);

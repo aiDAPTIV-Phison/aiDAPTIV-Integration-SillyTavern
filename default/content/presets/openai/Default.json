@@ -11,7 +11,7 @@
     "electronhub_model": "gpt-4o-mini",
     "electronhub_sort_models": "alphabetically",
     "electronhub_group_models": false,
-    "custom_model": "Llama-3.2-3B-Instruct-Q4_K_M",
+    "custom_model": "Meta-Llama-3.1-8B-Instruct-Q4_K_M",
     "custom_url": "http://127.0.0.1:13141/v1",
     "custom_include_body": "",
     "custom_exclude_body": "",
