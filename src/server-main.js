@@ -216,6 +216,7 @@ app.get('/login', loginPageMiddleware);
 const webpackMiddleware = getWebpackServeMiddleware();
 app.use(webpackMiddleware);
 app.use(express.static(path.join(serverDirectory, 'public'), {}));
+app.use('/Example', express.static(path.join(serverDirectory, 'aiDAPTIV_Files', 'Example')));
 
 // Public API
 app.use('/api/users', usersPublicRouter);

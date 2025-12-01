@@ -659,6 +659,8 @@ async function firstLoadInit() {
     initDefaultSlashCommands();
     initTextGenModels();
     initOpenAI();
+    const { initKvCachePreloader } = await import('./scripts/kv-cache-preloader.js');
+    initKvCachePreloader();
     initTextGenSettings();
     initKoboldSettings();
     initNovelAISettings();
@@ -669,6 +671,13 @@ async function firstLoadInit() {
     await initPresetManager();
     await initSystemMessages();
     await getSettings();
+
+    // Auto-connect to OpenAI if configured
+    if (main_api === 'openai') {
+        console.log('Auto-connecting to OpenAI...');
+        $('#api_button_openai').trigger('click');
+    }
+
     initKeyboard();
     initDynamicStyles();
     initTags();
@@ -676,6 +685,46 @@ async function firstLoadInit() {
     initMacros();
     await getUserAvatars(true, user_avatar);
     await getCharacters();
+
+    
+    try {
+        const demoRes = await fetch('demo_mode.json', { cache: 'no-store' });
+        if (demoRes.ok) {
+            const demoCfg = await demoRes.json();
+            if (demoCfg.demo) {
+                const exampleCharName = 'Sir-Arthur-Conan-Doyle';
+                let exampleCharIndex = characters.findIndex(c => c.name === exampleCharName);
+
+                if (exampleCharIndex === -1) {
+                    console.log('Demo Mode: Character not found, attempting to import from /Example...');
+                    try {
+                        const response = await fetch(`/Example/${exampleCharName}.json`);
+                        if (response.ok) {
+                            const blob = await response.blob();
+                            const file = new File([blob], `${exampleCharName}.json`, { type: 'application/json' });
+                            await importCharacter(file);
+                            console.log('Demo Mode: Imported example character');
+                            
+                            await getCharacters();
+                            exampleCharIndex = characters.findIndex(c => c.name === exampleCharName);
+                        } else {
+                            console.warn('Demo Mode: Example character file not found in /Example');
+                        }
+                    } catch (err) {
+                        console.error('Demo Mode: Failed to import example character:', err);
+                    }
+                }
+
+                if (exampleCharIndex !== -1) {
+                    console.log('Demo Mode: Auto-loading Example character:', exampleCharName);
+                    await selectCharacterById(exampleCharIndex);
+                }
+            }
+        }
+    } catch (e) {
+        
+    }
+
     await getBackgrounds();
     await initTokenizers();
     initBackgrounds();
@@ -6656,6 +6705,7 @@ export async function getChat() {
             chat_metadata['integrity'] = uuidv4();
         }
         await getChatResult();
+        console.log(characters);
         eventSource.emit('chatLoaded', { detail: { id: this_chid, character: characters[this_chid] } });
 
         // Focus on the textarea if not already focused on a visible text input
